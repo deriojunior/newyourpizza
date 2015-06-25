@@ -77,7 +77,7 @@ window.onload = function()
 				var dadosCliente = listaClientes[i].imprime();
 				for(var c = 0; c < dadosCliente.length; c++)
 				{
-					txt += "<td><center>"+(dadosClientes[c])+"</center></td>";
+					txt += "<td><center>"+(dadosCliente[c])+"</center></td>";
 				}
 				//Editar...
 				txt += "<td><center>";
@@ -253,7 +253,7 @@ window.onload = function()
 			{
 				if(existeDados == 1)
 				{
-					alert("O cliente com a ficha: " + valores[0] + " Já existe");
+					alert("O cliente com o ID: " + valores[0] + " Já existe");
 					nom_div(elementos[0]).focus();
 				}
 				else
