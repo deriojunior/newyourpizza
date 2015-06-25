@@ -2,12 +2,15 @@ body
 {
 	background-image: url(telacadastro.jpg);
     background-size: 100% 100%;
-        
+           
 }
 
 h1{
-    
-    color: aqua;
+    padding-top: 3%;
+    padding-left: 6%;
+    color: gainsboro;
+    text-shadow: red 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px; 
+    font-size: 40px;
 
 }
 
@@ -19,28 +22,30 @@ img
 #esq1
 {
 	float:left;
-	margin-left: 2%;
-	width: 23%;
-	border-right: 1px dotted white;
+	margin-left: 3%;
+	width: 40%;
+    padding-top: 2%;
 	height: 600px;
 }
 
 #esq2
 {
 	float:right;
-	width: 72%;
+    margin-right: 10%;
+	width: 80%;
+    padding-bottom: 3%;
 }
 
 
 
-input[type="text"], input[type="password"], input[type="email"], input[type="date"], input[type="number"], input[type="search"], select {
+input[type="text"], input[type="email"], input[type="date"], input[type="number"], input[type="search"], select {
  width: 90%;
  padding: 20px 0px;
  background: transparent;
  border: 0;
  border-bottom: 1px solid #435160;
  outline: none;
- color: white;
+ color: darkred;
  font-size: 1.5em;
 }
 
@@ -51,25 +56,25 @@ input[type="search"]
 
 
 input[type="button"] {
- background: #1FCE6D;
+ background: solid #435160;
  border: 0;
- width: 95%;
+ width: 44.7%;
  height: 40px;
  border-radius: 3px;
- color: #fff;
- font-size: 1.0em;
+ color: aqua: ;
+ font-size: 1.3em;
  cursor: pointer;
  transition: background 0.3s ease-in-out;
 }
 input[type="button"]:hover {
- background: #16aa56;
+ background: solid #435160;
  animation-name: shake;
 }
 
 
 
 ::-webkit-input-placeholder {
- color: aqua;
+ color: darkred;
  font-size: 0.8em;
 }
 
