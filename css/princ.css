@@ -8,14 +8,49 @@ body{
 }
 
 h1{
-    padding-left: 2%;
-    font-size: 100px;
+    
+    padding-left: 50%;
+    font-size: 105px;
     color: orange;
+    margin-top: -3px;
+
 }
 
 h2{
 
+    padding-left: 65%;
+    font-size: 95px;
+    color: orange;
+    margin-top: -80px;
+}
+
+p{
+
+    padding-left: 2    %;
+    color: white;
+    font-size: 25px;
+    float: left;
+    width: 40%;
+    margin-top: 5px;
+    text-align: center;
+    text-shadow: #000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px; 
+
+}
+
+.y{
+
+    margin-top: -270px;
     padding-left: 13%;
-    font-size: 100px;
-    color: orange;s
+
+
+
+}
+
+    
+.p{
+
+    margin-top: -60px;
+    padding-left: 20%;
+
+
 }
